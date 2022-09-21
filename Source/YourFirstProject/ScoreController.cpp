@@ -40,6 +40,8 @@ void AScoreController::Tick(float DeltaTime)
 
 void AScoreController::IncreaseScore(int amount)
 {
+	int lives;
+	
 	if(pScoreText.IsValid())
 	{
 		Score += amount;
